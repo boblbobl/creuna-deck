@@ -1,0 +1,131 @@
+.deck-container {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1.25em;
+  background: #212121;
+  color: #999; }
+
+.deck-container section.slide {
+  /*background: url(../images/c-logo-small.png) #212121;
+  background-repeat: no-repeat;
+  background-position: left bottom;*/ }
+
+.deck-container section.frontpage {
+  background: url(../images/c-logo.png);
+  background-position: 0 50%;
+  background-repeat: no-repeat; }
+
+.deck-container .slide h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 2.0em;
+  text-align: left;
+  margin-left: 400px;
+  padding-top: 240px; }
+
+.deck-container .slide h1.sub {
+  color: #918977;
+  font-size: 1.0em;
+  margin-top: -40px;
+  background: url(../images/creuna-logo.png);
+  background-repeat: no-repeat;
+  background-position: 48px 170px; }
+
+.deck-container .slide h2 {
+  color: #fff;
+  border: none;
+  font-weight: normal; }
+
+.deck-container .slide h3 {
+  color: #fff; }
+
+.deck-container .slide h6 {
+  position: absolute;
+  top: 50%;
+  color: #918977;
+  text-align: center;
+  left: 0;
+  right: 0;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  font-weight: normal;
+  font-style: italic;
+  font-size: 4.2em; }
+
+.deck-container .slide p {
+  color: #fff; }
+
+.deck-container .slide pre {
+  border-color: #ccc; }
+
+.deck-container .slide code {
+  color: #888; }
+
+.deck-container .slide blockquote {
+  font-size: 2em;
+  font-style: italic;
+  padding: 1em 2em;
+  color: #fff;
+  border-left: 5px solid #ccc; }
+
+.deck-container .slide blockquote p {
+  margin: 0; }
+
+.deck-container .slide blockquote cite {
+  font-size: .5em;
+  font-style: normal;
+  font-weight: bold;
+  color: #fff; }
+
+.deck-container .slide ::-moz-selection {
+  background: #c00;
+  color: #fff; }
+
+.deck-container .slide ::selection {
+  background: #c00;
+  color: #fff; }
+
+.deck-container .slide a, .deck-container .slide a:hover, .deck-container .slide a:focus, .deck-container .slide a:active, .deck-container .slide a:visited {
+  color: #c00;
+  text-decoration: none; }
+
+.deck-container .slide a:hover, .deck-container .slide a:focus {
+  text-decoration: underline; }
+
+.deck-container > .slide .deck-before, .deck-container > .slide .deck-previous {
+  opacity: 0.4; }
+
+.deck-container .deck-prev-link, .deck-container .deck-next-link {
+  background: #918977;
+  font-family: serif; }
+
+.deck-container .deck-prev-link, .deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-prev-link:active, .deck-container .deck-prev-link:visited, .deck-container .deck-next-link, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus, .deck-container .deck-next-link:active, .deck-container .deck-next-link:visited {
+  color: #212121; }
+
+.deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus {
+  background: #fff;
+  text-decoration: none; }
+
+.deck-container.deck-menu .slide {
+  background: #eee; }
+
+.deck-container.deck-menu .deck-current, .no-touch .deck-container.deck-menu .slide:hover {
+  background: #ddf; }
+
+.deck-container .deck-prev-link {
+  left: -8px; }
+
+.deck-container .deck-next-link {
+  right: -8px; }
+
+.deck-container .deck-logo {
+  position: absolute;
+  bottom: 10px;
+  z-index: 99; }
+
+.deck-container .deck-status {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.6666em; }
