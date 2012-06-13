@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Arla Hosting Move</title>
+	
+	<meta name="author" content="Lars Hundebøl">
+	<meta name="viewport" content="width=1024, user-scalable=no">
+	
+	<!-- Core and extension CSS files -->
+	<link rel="stylesheet" href="../core/deck.core.css">
+	<link rel="stylesheet" href="../extensions/goto/deck.goto.css">
+	<link rel="stylesheet" href="../extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="../extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" href="../extensions/status/deck.status.css">
+	<link rel="stylesheet" href="../extensions/hash/deck.hash.css">
+	
+	
+	
+	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
+	<link rel="stylesheet" href="../themes/transition/horizontal-slide.css">
+	
+	<!-- Style theme. More available in /themes/style/ or create your own. -->
+	<link rel="stylesheet" href="../themes/style/creuna.css">
+	
+	<script src="../modernizr.custom.js"></script>
+</head>
+
+<body class="deck-container">
+
+<!-- Begin slides -->
+<section class="slide frontpage">
+  <h1 class="sub">June 2012</h1>
+	<h1>Hosting Move</h1>
+</section>
+
+<section class="slide">
+	<h2>Agenda</h2>
+	<ol>
+		<li class="slide">
+			<h3>The New Hosting Environment Explained - Lars</h3>
+		</li>
+		<li class="slide">
+			<h3>The New Deployment Flow - Andrew</h3>
+		</li>
+		<li class="slide">
+			<h3>Too many language files in production and how to solve the language versioning on static content - Max and all</h3>
+		</li>
+		<li class="slide">
+			<h3>AppPools and how to configure the new hosting environment? - All</h3>
+		</li>
+		<li class="slide">
+			<h3>What's next?</h3>
+		</li>
+	</ol>
+</section>
+
+<section class="slide">
+	<h2>What's Next?</h2>
+	<ul>
+		<li class="slide">
+			<h3>Verify the configuration of House of Castello and Laerkevang</h3>
+		</li>
+		<li class="slide">
+			<h3>Deadline 1: Arrange domain switch for Castello and Laerkevang on friday</h3>
+		</li>
+		<li class="slide">
+			<h3>Verify the configuration of arla.dk and arlafoodservice.dk</h3>
+		</li>
+		<li class="slide">
+			<h3>QA: arla.dk and arlafoodservice.dk</h3>
+		</li>
+		<li class="slide">
+			<h3>Deadline 2: Arrange domain switch for arla.dk and arlafoodservice.dk on next friday</h3>
+		</li>
+		<li class="slide">
+			<h3>Remember: We should use the EPiServer Hosting team where possible</h3>
+		</li>
+	</ul>
+</section>
+
+<!-- deck.navigation snippet -->
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+<!-- deck.status snippet -->
+<p class="deck-status" style="position: absolute">
+	<span class="deck-status-current"></span>
+	/
+	<span class="deck-status-total"></span>
+</p>
+
+<!-- deck.goto snippet -->
+<form action="." method="get" class="goto-form">
+	<label for="goto-slide">Go to slide:</label>
+	<input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+	<datalist id="goto-datalist"></datalist>
+	<input type="submit" value="Go">
+</form>
+
+<!-- deck.hash snippet -->
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+<script>window.jQuery || document.write('<script src="../jquery-1.7.min.js"><\/script>')</script>
+
+<!-- Deck Core and extensions -->
+<script src="../core/deck.core.js"></script>
+<script src="../extensions/hash/deck.hash.js"></script>
+<script src="../extensions/menu/deck.menu.js"></script>
+<script src="../extensions/goto/deck.goto.js"></script>
+<script src="../extensions/status/deck.status.js"></script>
+<script src="../extensions/navigation/deck.navigation.js"></script>
+
+<!-- Initialize the deck -->
+<script>
+$(function() {
+	$.deck('.slide');
+});
+</script>
+
+</body>
+</html>
